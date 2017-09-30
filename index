@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+
+    <title>EDC</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/icon-font.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-theme">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" style="margin:0 auto !important;">
+            <a class="nav-item nav-link" href="#" id="move-home"><span class="lnr lnr-home"></span>Home</a>
+            <a class="nav-item nav-link" href="#" id="move-to-about"><i class="fa fa-info-circle" aria-hidden="true"></i>About Us</a>
+            <a class="nav-item nav-link" href="#"><span class="lnr lnr-highlight"></span>Blog</a>
+            <a class="nav-item nav-link" href="#"><span class="lnr lnr-users"></span>Team</a>
+            <a class="nav-item nav-link" href="#"><span class="lnr lnr-link"></span>Udyami</a>
+            <a class="nav-item nav-link" href="#"><span class="lnr lnr-phone-handset"></span>Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid hero">
+      <div class="large-container">
+        <div class="large-display">
+          <h1 class="hero-brand set-font-ms">Entrepreneurship Development Cell</h1>
+          <h4 class="hero-description">The Entrepreneur Cell of University Institute of Engineering &amp; Technology, Panjab University</h4>
+        </div>
+      </div>
+    </div>
+
+    <hr id="clearspace">
+
+    <div class="container about-section" id="about-section">
+      <h4 class="section-heading set-font-ms">&mdash;&nbsp;About Us</h4>
+      <p class="about-section-text">Entrepreneurship Development Cell(EDC) began with the idea that the conventional
+        model of problem solving in the world was simply not as effective as was thought earlier.
+        The world needed a better model. We needed a better way, not only to restore but also to
+        replenish. A model that is not only sustainable but also pivotal to growth and prosperity.
+        At EDC, we believe that Entrepreneurship is the most vital key towards reaching that better model.
+        All great things take time. Since our establishment, we have pursued towards creating a
+        nurturing environment for budding entrepreneurs and entrepreneurial-minds alike, conducting
+        workshops, events, seminars, boot camps, interactive sessions, pitching sessions and many
+        more such endeavours that have proven to be stepping stones for many individuals and teams alike.</p>
+    </div>
+
+    <hr id="clearspace">
+
+    <div class="container vision-section">
+      <h4 class="section-heading set-font-ms">&mdash;&nbsp;Vision</h4>
+      <p class="about-section-text">The vision of EDC has been to be the helping hand that helps you take your baby steps,
+        the unfazed shoulder that sticks around during tough times,
+        the stepping stone that becomes the basis for your leap forward and then the pathway that leads you
+        to your success. We know of the disruptor inside of you that has the ability to bring about a
+        change in the existing model of the world. We know of your seemingly incomprehensible dreams.
+        This is us telling you. “They aren’t so incomprehensible!” We’re here to guide you and in turn,
+        be guided by you. We’re here for the better. We’re motivated. Are you?</p>
+    </div>
+
+    <hr id="clearspace-large">
+
+    <div class="container connect-with-us">
+      <h4 class="section-heading set-font-ms">&mdash;&nbsp;What We Do</h4>
+      <hr id="clearspace">
+      <div class="row">
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-user icon-lg" aria-hidden="true"></i>
+            <h5>As a student</h5>
+            <p>If you’re trying to figure out what it feels like to step
+						into the ‘real world’ that everyone keeps talking about, connect with us.
+						We organise workshops, boot camps, interactive sessions and
+						seminars with real life entrepreneurs, industrialists and investors.
+						Talk to them, explore their minds, dive into the ocean of their experience
+						and know that if you’re able to retain only a bucket full of what they have to offer,
+						you’ve already stepped into the ‘real world’.</p>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-lightbulb-o icon-lg" aria-hidden="true"></i>
+            <h5>As an entrepreneur</h5>
+            <p>If you’re the entrepreneur who’s started on with his venture and
+						looking for various aspects of running a successful business such as
+						acquiring the right talent, mentors to further guide you, investors to
+						invest in your business or any and all things considered, rest assured that
+						you will have access to the entirety of our networks and resources that will
+						provide you a road map to the solutions of your problem.
+						</p>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-graduation-cap icon-lg" aria-hidden="true"></i>
+            <h5>As a mentor</h5>
+            <p>If you think your expertise can help us take it a step further,
+  					grow in the way we work or expand the scope of our vision, we’re listening.
+  					We’re here to learn. Guide us into uncharted waters.
+  					We’re more than happy to have you on board with us.
+  					</p>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-rupee icon-lg" aria-hidden="true"></i>
+            <h5>As an Investor</h5>
+            <p>All said and done, the only quantitative way we can nurture the
+						start-up ecosystem is by giving three things. Time, money and experience.
+						Are you the kind of investor we’re looking for? The kind who’s not just about the money,
+						but about the patience and zeal required to build unicorns. Let us know and
+						we’ll embark on an exciting adventure!
+					  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr id="clearspace-large">
+
+    <div class="container edc-till-date">
+      <h4 class="section-heading set-font-ms">&mdash;&nbsp;EDC Till Date</h4>
+      <hr id="clearspace">
+      <div class="row">
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-university icon-lg" aria-hidden="true"></i>
+            <h5>66 Sessions Held</h5>
+            <p>To keep students enthusiastic about entrepreneurship.</p>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-puzzle-piece icon-lg" aria-hidden="true"></i>
+            <h5>45 Competitions</h5>
+            <p>To keep the competitive spirit alive and to keep them moving forward.</p>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-magic icon-lg" aria-hidden="true"></i>
+            <h5>15 Parties</h5>
+            <p>Because awesome people work hard, play hard (that means we party hard :P).</p>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <i class="fa fa-coffee icon-lg" aria-hidden="true"></i>
+            <h5>50 Coffee Meetings</h5>
+            <p>Sometimes this is important to get shit done.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  </body>
+</html>
