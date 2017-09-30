@@ -3,7 +3,7 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
 
     <title>EDC</title>
 
@@ -22,7 +22,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-theme">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark navbar-theme">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,6 +44,7 @@
       <div class="large-container">
         <div class="large-display">
           <h1 class="hero-brand set-font-ms">Entrepreneurship Development Cell</h1>
+          <hr id="clearspace">
           <h4 class="hero-description">The Entrepreneur Cell of University Institute of Engineering &amp; Technology, Panjab University</h4>
         </div>
       </div>
@@ -145,28 +146,28 @@
           <div class="box">
             <i class="fa fa-university icon-lg" aria-hidden="true"></i>
             <h5>66 Sessions Held</h5>
-            <p>To keep students enthusiastic about entrepreneurship.</p>
+            <p style="text-align:center;">To keep students enthusiastic about entrepreneurship.</p>
           </div>
         </div>
         <div class="col-md-3 connect-column">
           <div class="box">
             <i class="fa fa-puzzle-piece icon-lg" aria-hidden="true"></i>
             <h5>45 Competitions</h5>
-            <p>To keep the competitive spirit alive and to keep them moving forward.</p>
+            <p style="text-align:center;">To keep the competitive spirit alive and to keep them moving forward.</p>
           </div>
         </div>
         <div class="col-md-3 connect-column">
           <div class="box">
             <i class="fa fa-magic icon-lg" aria-hidden="true"></i>
             <h5>15 Parties</h5>
-            <p>Because awesome people work hard, play hard (that means we party hard :P).</p>
+            <p style="text-align:center;">Because awesome people work hard, play hard (that means we party hard :P).</p>
           </div>
         </div>
         <div class="col-md-3 connect-column">
           <div class="box">
             <i class="fa fa-coffee icon-lg" aria-hidden="true"></i>
             <h5>50 Coffee Meetings</h5>
-            <p>Sometimes this is important to get shit done.</p>
+            <p style="text-align:center;">Sometimes this is important to get shit done.</p>
           </div>
         </div>
       </div>

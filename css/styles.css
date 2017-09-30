@@ -9,7 +9,7 @@ body{
 
 .navbar-theme{
   transition: all 300ms ease-in-out;
-  background-color: transparent;
+  background-color: #1E003D;
   border-bottom: 1px solid transparent;
 }
 
@@ -97,4 +97,23 @@ body{
 .icon-lg{
   margin: 20px 0;
   font-size: 32px !important;
+}
+
+@media all and (max-width: 576px){
+  .hero-brand{
+    font-size: 2em;
+    line-height: 1.6em;
+  }
+  .hero-description{
+    font-size: 1.4em;
+    line-height: 1.6em;
+  }
+  .about-section-text{
+    font-size: 14px;
+    text-align: justify;
+  }
+  .box p{
+    padding: 0 14px;
+    text-align: justify;
+  }
 }
