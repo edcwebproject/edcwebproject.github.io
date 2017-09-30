@@ -5,11 +5,10 @@ html {
 
 ::-webkit-scrollbar {
   width:10px;
-  background: #807e7e;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 20px;
   background: #1E003D;
 }
 
@@ -214,13 +213,18 @@ figure figcaption a:hover{
   font-size: 32px !important;
 }
 
+.footer{
+  height: 200px;
+  background-color: #1E003D;
+}
+
 @media all and (max-width: 576px){
   .hero-brand{
     font-size: 2em;
     line-height: 1.6em;
   }
   .hero-description{
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.6em;
   }
   .about-section-text{
