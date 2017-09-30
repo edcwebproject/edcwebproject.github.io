@@ -24,13 +24,17 @@
 //   }
 // });
 
-$(document).ready(function(){
-  $('#move-home').click(function(event){
-    event.preventDefault();
-    $('html, body').animate({scrollTop: 0}, 350);
-  });
-  $('#move-to-about').click(function(event){
-    event.preventDefault();
-    $('html, body').animate({scrollTop: 700}, 350);
-  });
-});
+// $(document).ready(function(){
+//   $('#move-home').click(function(event){
+//     event.preventDefault();
+//     $('html, body').animate({scrollTop: 0}, 350);
+//   });
+//   $('#move-to-about').click(function(event){
+//     event.preventDefault();
+//     $('html, body').animate({scrollTop: 700}, 350);
+//   });
+//   $('#move-to-team').click(function(event){
+//     event.preventDefault();
+//     $('html, body').animate({scrollTop: 2600}, 1000);
+//   });
+// });

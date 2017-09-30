@@ -12,34 +12,37 @@
     <link rel="stylesheet" href="css/icon-font.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark navbar-theme">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-theme">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav" style="margin:0 auto !important;">
-            <a class="nav-item nav-link" href="#" id="move-home"><span class="lnr lnr-home"></span>Home</a>
-            <a class="nav-item nav-link" href="#" id="move-to-about"><i class="fa fa-info-circle" aria-hidden="true"></i>About Us</a>
-            <a class="nav-item nav-link" href="#"><span class="lnr lnr-highlight"></span>Blog</a>
-            <a class="nav-item nav-link" href="#"><span class="lnr lnr-users"></span>Team</a>
-            <a class="nav-item nav-link" href="#"><span class="lnr lnr-link"></span>Udyami</a>
-            <a class="nav-item nav-link" href="#"><span class="lnr lnr-phone-handset"></span>Contact</a>
+            <a data-easing="linear" class="nav-item nav-link" href="#id-home"><span class="lnr lnr-home pr-sm"></span>Home</a>
+            <a data-easing="linear" class="nav-item nav-link" href="#id-about"><i class="fa fa-info-circle pr-sm" aria-hidden="true"></i>About Us</a>
+            <a data-easing="linear" class="nav-item nav-link" href="#"><span class="lnr lnr-highlight pr-sm"></span>Blog</a>
+            <a data-easing="linear" class="nav-item nav-link" href="#id-team"><span class="lnr lnr-users pr-sm"></span>Team</a>
+            <a data-easing="linear" class="nav-item nav-link" href="#"><span class="lnr lnr-link pr-sm"></span>Udyami</a>
+            <a data-easing="linear" class="nav-item nav-link" href="#"><span class="lnr lnr-phone-handset pr-sm"></span>Contact</a>
           </div>
         </div>
       </div>
     </nav>
 
+    <div id="id-home"></div>
     <div class="container-fluid hero">
       <div class="large-container">
         <div class="large-display">
@@ -50,9 +53,10 @@
       </div>
     </div>
 
+    <div id="id-about"></div>
     <hr id="clearspace">
 
-    <div class="container about-section" id="about-section">
+    <div class="container about-section">
       <h4 class="section-heading set-font-ms">&mdash;&nbsp;About Us</h4>
       <p class="about-section-text">Entrepreneurship Development Cell(EDC) began with the idea that the conventional
         model of problem solving in the world was simply not as effective as was thought earlier.
@@ -173,10 +177,67 @@
       </div>
     </div>
 
+    <div id="id-team"></div>
+    <hr id="clearspace">
+
+    <div class="container team">
+      <h4 class="section-heading set-font-ms">&mdash;&nbsp;Team</h4>
+      <h5 class="pl-lg">Senators</h5>
+      <div class="row">
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <figure>
+        			<img src="assets/team-1.jpg">
+        			<figcaption>
+        				<h5>Harshal Jain</h5>
+        				<a href="https://in.linkedin.com/in/harshal02jain" target="_blank"><i class="fa fa-linkedin"></i></a>
+        			</figcaption>
+        		</figure>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <figure>
+        			<img src="assets/team-2.jpg">
+        			<figcaption>
+        				<h5>Prakhar Srivastava</h5>
+        				<a href="https://in.linkedin.com/in/prakhar-srivastava-62858b106" target="_blank"><i class="fa fa-linkedin"></i></a>
+        			</figcaption>
+        		</figure>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <figure>
+        			<img src="assets/team-3.jpg">
+        			<figcaption>
+        				<h5>Sambhavi</h5>
+        				<a href="https://www.linkedin.com/in/sambhavi-g-86a6b2a5" target="_blank"><i class="fa fa-linkedin"></i></a>
+        			</figcaption>
+        		</figure>
+          </div>
+        </div>
+        <div class="col-md-3 connect-column">
+          <div class="box">
+            <figure>
+        			<img src="assets/team-4.jpg">
+        			<figcaption>
+        				<h5>Pushkar Katyal</h5>
+        				<a href="https://in.linkedin.com/in/pushkar-katyal-a2543aa5" target="_blank"><i class="fa fa-linkedin"></i></a>
+        			</figcaption>
+        		</figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
+
+    <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
   </body>
 </html>
