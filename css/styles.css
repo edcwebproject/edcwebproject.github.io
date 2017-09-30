@@ -1,3 +1,18 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width:10px;
+  background: #807e7e;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #1E003D;
+}
+
 body{
   letter-spacing: 1px;
   background-color: #f5f5f5;
@@ -27,6 +42,10 @@ body{
 .lnr,
 .pr-sm{
   padding-right: 8px !important;
+}
+
+.ml-lg{
+  margin-left: 20px !important;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -89,6 +108,12 @@ body{
   border-bottom: 2px solid #1E003D;
   border-top: 2px solid #1E003D;
   text-align: center;
+}
+
+/* Clear Borders */
+.img-section{
+  border-bottom: 2px solid transparent !important;
+  border-top: 2px solid transparent !important;
 }
 
 .box p{
@@ -157,6 +182,33 @@ figure figcaption a:hover{
   color: #007BB6;
 }
 
+.member-list-out li{
+  margin:0 auto;
+  width: 60%;
+  height: 50px;
+  line-height: 50px;
+  list-style-type: none;
+}
+
+.member-list{
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.member-list-out li span{
+  float: left;
+}
+
+.member-list-out li a{
+  float: right;
+}
+
+.member-list-out li a i{
+  padding: 10px;
+  background: #007BB6;
+  color: #fff;
+}
+
 .icon-lg{
   margin: 20px 0;
   font-size: 32px !important;
@@ -178,5 +230,8 @@ figure figcaption a:hover{
   .box p{
     padding: 0 14px;
     text-align: justify;
+  }
+  .member-list-out li{
+    width: 100%;
   }
 }
