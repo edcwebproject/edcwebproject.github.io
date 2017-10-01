@@ -236,7 +236,7 @@ figure figcaption a:hover{
 }
 
 .information {
-  margin-top: 18px;
+  margin-top: 32px;
 }
 
 .information,
@@ -308,10 +308,19 @@ figure figcaption a:hover{
   transition: all 200ms linear;
 }
 
-.com-btn:hover{
-  color: #ffffff;
-  background-color: #3E005D;
+.com-btn:hover.contact-main{
+  color: #1E003D !important; 
+  background-color: #ffffff;
   text-decoration: none;
+}
+
+.contact-main{
+  margin-top: 20px;
+  border: 1px solid #ffffff !important;
+}
+
+.contact-main i{
+  padding-left: 20px;
 }
 
 @media all and (max-width: 576px){
