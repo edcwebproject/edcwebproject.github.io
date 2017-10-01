@@ -3,6 +3,26 @@ html {
   overflow-x: hidden;
 }
 
+::selection{
+  background-color: #1E003D;
+  color: #ffffff;
+}
+
+::-webkit-selection{
+  background-color: #1E003D;
+  color: #ffffff;
+}
+
+::-ms-selection{
+  background-color: #1E003D;
+  color: #ffffff;
+}
+
+::-o-selection{
+  background-color: #1E003D;
+  color: #ffffff;
+}
+
 ::-webkit-scrollbar {
   width:10px;
   background: transparent;
@@ -31,7 +51,7 @@ body{
 }
 
 .set-font-ms{
-  font-family: 'Montserrat' !important;
+  font-family: 'Zilla Slab', serif !important;
 }
 
 .navbar{
@@ -77,7 +97,7 @@ body{
 
 .hero-brand{
   color: #ffffff;
-  font-size: 3.2em;
+  font-size: 72px;
   letter-spacing: 2px;
 }
 
@@ -308,8 +328,9 @@ figure figcaption a:hover{
   transition: all 200ms linear;
 }
 
+.com-btn:hover,
 .com-btn:hover.contact-main{
-  color: #1E003D !important; 
+  color: #1E003D !important;
   background-color: #ffffff;
   text-decoration: none;
 }
