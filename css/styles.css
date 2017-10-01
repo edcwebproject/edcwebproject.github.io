@@ -200,6 +200,11 @@ figure figcaption a:hover{
 
 .member-list-out li a{
   float: right;
+  transition: transform 200ms linear;
+}
+
+.member-list-out li a:hover{
+  transform: scale(1.2);
 }
 
 .member-list-out li a i{
@@ -214,8 +219,109 @@ figure figcaption a:hover{
 }
 
 .footer{
-  height: 200px;
+  height: 400px;
   background-color: #1E003D;
+}
+
+.footer .container{
+  height: 100%;
+  margin: 0 auto;
+}
+
+.footer .row{
+  height: inherit;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.information {
+  margin-top: 18px;
+}
+
+.information,
+.information a{
+  color: rgba(255,255,255,0.6) !important;
+  font-size: 18px;
+}
+
+.information a:active,
+.information a:hover,
+.information a:focus{
+  color: rgba(255,255,255,0.6) !important;
+}
+
+.information i{
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.information span{
+  text-align: justify;
+}
+
+.col-wd-5{
+  min-width: 20%;
+  max-width: 20%;
+}
+
+.social,
+.info-head{
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.spanner{
+  width: 40px;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  transition: all 200ms linear;
+}
+
+.spanner:hover{
+  color: #1E003D;
+  background-color: #fff;
+  transform: scale(1.2);
+}
+
+.meta{
+  margin-top: 18px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.25);
+}
+
+.meta a{
+  color: rgba(255,255,255,0.5);
+}
+
+.developer{
+  color: #ffffff !important;
+  background-color: #ffffff;
+  animation: cc 5s normal infinite;
+}
+
+.developer:hover{
+  text-decoration: none !important;
+}
+
+@keyframes cc {
+    0% {
+        background: #000000;
+    }
+    25% {
+        background: #ff0000;
+    }
+    50%{
+        background: #00ff00;
+    }
+    75%{
+        background: #0000ff;
+    }
+    100%{
+        background: #000000;
+    }
 }
 
 @media all and (max-width: 576px){
@@ -237,5 +343,12 @@ figure figcaption a:hover{
   }
   .member-list-out li{
     width: 100%;
+  }
+  .information,
+  .information a{
+    font-size: 12px;
+  }
+  .meta{
+    font-size: 10px;
   }
 }
