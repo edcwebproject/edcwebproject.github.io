@@ -219,7 +219,7 @@ figure figcaption a:hover{
 }
 
 .footer{
-  height: 400px;
+  height: 500px;
   background-color: #1E003D;
 }
 
@@ -228,10 +228,11 @@ figure figcaption a:hover{
   margin: 0 auto;
 }
 
-.footer .row{
-  height: inherit;
+.footer .main{
+  height: 90%;
   margin: 0 auto;
   padding-top: 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 .information {
@@ -256,6 +257,7 @@ figure figcaption a:hover{
 }
 
 .information span{
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -263,12 +265,6 @@ figure figcaption a:hover{
   min-width: 20%;
   max-width: 20%;
 }
-
-.social,
-.info-head{
-  border-bottom: 1px solid rgba(255,255,255,0.25);
-}
-
 .spanner{
   width: 40px;
   padding: 10px;
@@ -281,47 +277,41 @@ figure figcaption a:hover{
 .spanner:hover{
   color: #1E003D;
   background-color: #fff;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .meta{
   margin-top: 18px;
-  text-align: center;
   font-size: 12px;
   line-height: 1.6;
   color: rgba(255,255,255,0.25);
 }
 
 .meta a{
-  color: rgba(255,255,255,0.5);
-}
-
-.developer{
-  color: #ffffff !important;
-  background-color: #ffffff;
-  animation: cc 5s normal infinite;
+  color: inherit;
 }
 
 .developer:hover{
   text-decoration: none !important;
 }
 
-@keyframes cc {
-    0% {
-        background: #000000;
-    }
-    25% {
-        background: #ff0000;
-    }
-    50%{
-        background: #00ff00;
-    }
-    75%{
-        background: #0000ff;
-    }
-    100%{
-        background: #000000;
-    }
+.contact-main{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.com-btn{
+  background-color: #1E003D;
+  margin-top: 10px;
+  padding: 20px 40px;
+  color: #ffffff;
+  transition: all 200ms linear;
+}
+
+.com-btn:hover{
+  color: #ffffff;
+  background-color: #3E005D;
+  text-decoration: none;
 }
 
 @media all and (max-width: 576px){
@@ -348,7 +338,10 @@ figure figcaption a:hover{
   .information a{
     font-size: 12px;
   }
+  .footer .main{
+    height: 100%;
+  }
   .meta{
-    font-size: 10px;
+    text-align: center;
   }
 }
