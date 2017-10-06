@@ -379,8 +379,8 @@ figure figcaption a:hover{
     line-height: 1.6em;
   }
   .about-section-text{
-    font-size: 14px;
-    text-align: justify;
+    font-size: 12px;
+    text-align: left;
   }
   .box p{
     padding: 0 14px;
@@ -396,5 +396,8 @@ figure figcaption a:hover{
   }
   .meta{
     text-align: center;
+  }
+  .member-list{
+    font-size: 12px;
   }
 }

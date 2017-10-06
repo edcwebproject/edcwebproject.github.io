@@ -26,7 +26,7 @@
   					<a data-easing="linear" class="nav-item nav-link" href="https://ecelluiet.wordpress.com/author/edcuiet/" target="_blank"><span class="lnr lnr-highlight pr-sm"></span>Blog</a>
   					<a data-easing="linear" class="nav-item nav-link" href="#id-team"><span class="lnr lnr-users pr-sm"></span>Team</a>
   					<a data-easing="linear" class="nav-item nav-link" href="#id-community"><span class="fa fa-address-card-o pr-sm"></span>Community</a>
-  					<a data-easing="linear" class="nav-item nav-link" href="./udyami/"><span class="lnr lnr-link pr-sm"></span>Udyami</a>
+  					<a data-easing="linear" class="nav-item nav-link" href="#"><span class="lnr lnr-link pr-sm"></span>Udyami</a>
   					<a data-easing="linear" class="nav-item nav-link" href="#id-contact"><span class="lnr lnr-phone-handset pr-sm"></span>Contact</a>
   				</div>
   			</div>
