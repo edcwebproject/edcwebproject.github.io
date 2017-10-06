@@ -118,7 +118,7 @@ body{
   margin-bottom: 20px;
 }
 
-.about-section-text{
+.section-text{
   font-size: 18px;
   line-height: 2em;
   border-left: 10px solid rgba(52, 152, 219, 1);
@@ -153,6 +153,10 @@ body{
 
 .box img{
   max-width: 100%;
+}
+
+.container p{
+  color: rgba(0, 0, 0, 0.6);
 }
 
 /*Figures and Reset Hover Effects*/
@@ -205,6 +209,10 @@ figure figcaption a {
 figure figcaption a:hover{
   background: #fff;
   color: #007BB6;
+}
+
+.team{
+  height: 500px !important;
 }
 
 .member-list-out li{
@@ -378,7 +386,7 @@ figure figcaption a:hover{
     font-size: 1.2em;
     line-height: 1.6em;
   }
-  .about-section-text{
+  .section-text{
     font-size: 12px;
     text-align: left;
   }

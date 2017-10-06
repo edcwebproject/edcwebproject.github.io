@@ -1,229 +1,153 @@
-
-    <div id="id-team"></div>
-    <hr id="clearspace">
-
-<div class="container team">
-  <h4 class="section-heading set-font-ms">&mdash;&nbsp;Team</h4>
-  <h5 class="pl-lg">Senators</h5>
-  <div class="row">
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/team-1.jpg">
-          <figcaption>
-            <h5>Harshal Jain</h5>
-            <a href="https://in.linkedin.com/in/harshal02jain" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/team-2.jpg">
-          <figcaption>
-            <h5>Prakhar Srivastava</h5>
-            <a href="https://in.linkedin.com/in/prakhar-srivastava-62858b106" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/team-3.jpg">
-          <figcaption>
-            <h5>Sambhavi</h5>
-            <a href="https://www.linkedin.com/in/sambhavi-g-86a6b2a5" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/team-4.jpg">
-          <figcaption>
-            <h5>Pushkar Katyal</h5>
-            <a href="https://in.linkedin.com/in/pushkar-katyal-a2543aa5" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
+<h5 class="pl-lg">Mentors</h5>
+<div class="row">
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Prakhar Srivastava</span>
+            <a href="https://in.linkedin.com/in/prakhar-srivastava-62858b106" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Sambhavi</span>
+            <a href="https://www.linkedin.com/in/sambhavi-g-86a6b2a5/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <hr class="clearspace">
-  <h5 class="pl-lg">Corporate Relations Team</h5>
-  <div class="row">
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/cr-1.jpg">
-          <figcaption>
-            <h5>Anukriti Munshi</h5>
-            <a href="https://in.linkedin.com/in/anukriti-munshi-60a194107" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/cr-2.jpg">
-          <figcaption>
-            <h5>Rahul Prasad</h5>
-            <a href="https://in.linkedin.com/in/rahul-prasad-5181a5107" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/cr-3.jpg">
-          <figcaption>
-            <h5>Sadhika Bhalla</h5>
-            <a href="https://in.linkedin.com/in/sadika-bhalla-b4bb30a3" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Pushkar Katyal</span>
+            <a href="https://in.linkedin.com/in/pushkar-katyal-a2543aa5" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Harshal Jain</span>
+            <a href="https://in.linkedin.com/in/harshal02jain" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <hr class="clearspace">
-  <h5 class="pl-lg">Event Planning Team</h5>
-  <div class="row">
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/ep-1.jpg">
-          <figcaption>
-            <h5>Gunjan Toora</h5>
-            <a href="https://in.linkedin.com/in/gunjan-toora-37616895" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/ep-2.jpg">
-          <figcaption>
-            <h5>Vikrant Pachauri</h5>
-            <a href="https://in.linkedin.com/in/vikrant-pachauri-5a7b09a8" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/ep-3.jpg">
-          <figcaption>
-            <h5>Deepika Nanda</h5>
-            <a href="https://in.linkedin.com/in/deepika-nanda-b2a1aa107" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
+</div>
+<hr id="clearspace">
+<h5 class="pl-lg">Leaders</h5>
+<div class="row">
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Deepika Nanda</span>
+            <a href="https://in.linkedin.com/in/deepika-nanda-b2a1aa107" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Vaibhav Jain</span>
+            <a href="https://in.linkedin.com/in/vaibhav-jain-492133107" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <hr class="clearspace">
-  <h5 class="pl-lg">Startup Booster Team</h5>
-  <div class="row">
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/sb-1.jpg">
-          <figcaption>
-            <h5>Chirag Huria</h5>
-            <a href="https://in.linkedin.com/in/chirag-huria" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="col-md-3 connect-column">
-      <div class="box img-section">
-        <figure>
-          <img src="assets/sb-2.jpg">
-          <figcaption>
-            <h5>Kapil Sharma</h5>
-            <a href="https://www.linkedin.com/in/kapil-sharma-8678b6110" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </figcaption>
-        </figure>
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Abhishek Puri</span>
+            <a href="https://in.linkedin.com/in/abhishek-puri-96617234" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Baneetpal Singh</span>
+            <a href="https://in.linkedin.com/in/j1-baneet-85a3ab117" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <hr class="clearspace">
-  <h5 class="pl-lg">Other Team Members</h5>
-  <div class="row">
-    <div class="col-md-6 connect-column">
-      <div class="box img-section">
-        <div class="member-list">
-          <ul class="member-list-out">
-            <li>
-              <span>RAJAT GANGADHARAN</span>
-              <a href="https://in.linkedin.com/in/rajat-gangadharan-394519b4" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>ABHISHEK PURI</span>
-              <a href="https://in.linkedin.com/in/abhishek-puri-96617234" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>ANISH NARANG</span>
-              <a href="https://in.linkedin.com/in/anish-narang-4ba020102" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>BANEET PAL SINGH</span>
-              <a href="https://in.linkedin.com/in/j1-baneet-85a3ab117" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>DEEPAK BANSAL</span>
-              <a href="https://in.linkedin.com/in/deepak-bansal-224241110" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>SHREYA MEHANDIRATA</span>
-              <a href="https://in.linkedin.com/in/shreya-mehndiratta-10383a105" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>KSHITIJ KHANDUJA</span>
-              <a href="https://in.linkedin.com/in/kshitij-khanduja-686b50129" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
+</div>
+<hr id="clearspace">
+<h5 class="pl-lg">Team Heads</h5>
+<div class="row">
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Ashish Suraj</span>
+            <a href="https://www.linkedin.com/in/ashish-suraj-7a4249101/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Akshay Kumar</span>
+            <a href="https://www.linkedin.com/in/akshay-kumar-530b6712b/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Sajal Jain</span>
+            <a href="https://www.linkedin.com/in/sajal-jain-a61a2412a/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="col-md-6 connect-column">
-      <div class="box img-section">
-        <div class="member-list">
-          <ul class="member-list-out">
-            <li>
-              <span>MANPREET SINGH</span>
-              <a href="https://in.linkedin.com/in/manpreet-singh-43bb50129" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>MANSI KHURANA</span>
-              <a href="#" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>MISHIKA GUMBER</span>
-              <a href="#" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>SAGAR DAS</span>
-              <a href="#" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>HIMANI OHRI</span>
-              <a href="#" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>STANLY SABOO</span>
-              <a href="https://in.linkedin.com/in/stanley-saboo-082654128" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <span>VAIBHAV JAIN</span>
-              <a href="https://in.linkedin.com/in/vaibhav-jain-492133107" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
+  </div>
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Paritosh Sankhla</span>
+            <a href="https://www.linkedin.com/in/paritoshsankhla/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Ananay Sharma</span>
+            <a href="https://www.linkedin.com/in/ananay-sharma-388053136/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Deepak Bansal</span>
+            <a href="https://www.linkedin.com/in/deepak-bansal-224241110/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<hr id="clearspace">
+<h5 class="pl-lg">GBM</h5>
+<div class="row">
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Pranav Shankar</span>
+            <a href="https://www.linkedin.com/in/pranav-shankar-447452150/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Arnav Sharma</span>
+            <a href="https://www.linkedin.com/in/arnav-sharma-241617124/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Shubhangi Agrawal</span>
+            <a href="https://www.linkedin.com/in/shubhangi-agrawal-334488135/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Parul Saini</span>
+            <a href="https://www.facebook.com/parul.saini.927543" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Akshat Gupta</span>
+            <a href="https://www.linkedin.com/in/akshat-gupta-793b3396/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Shashi Ranjan</span>
+            <a href="https://www.linkedin.com/in/shashi-ranjan-458a15133/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 connect-column">
+    <div class="box section__bordered">
+      <div class="member-list">
+        <ul class="member-list-out">
+          <li> <span>Manpreet Kaur</span>
+            <a href="https://www.facebook.com/profile.php?id=100001989086737" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Darpan Puri</span>
+            <a href="https://www.facebook.com/darpan.puri.3" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Arpit Sehgal</span>
+            <a href="https://www.facebook.com/arpit.sehgal.10?fref=hovercard&hc_location=none" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Bipin Kumar</span>
+            <a href="https://www.linkedin.com/in/bipin-kumar-b4ba16125/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li> <span>Jahanvi Thakral</span>
+            <a href="https://www.linkedin.com/in/jahanvi-thakral-20aa3b12a/" target="_blank" class="member-item"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
