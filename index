@@ -11,7 +11,6 @@
   	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  	<script type="text/javascript" src="js/script.js"></script>
   	<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
   </head>
 
@@ -23,10 +22,10 @@
   			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   				<div class="navbar-nav" style="margin:0 auto !important;"> <a data-easing="linear" class="nav-item nav-link" href="#id-home"><span class="lnr lnr-home pr-sm"></span>Home</a>
   					<a data-easing="linear" class="nav-item nav-link" href="#id-about"><i class="fa fa-info-circle pr-sm" aria-hidden="true"></i>About Us</a>
-  					<a data-easing="linear" class="nav-item nav-link" href="https://ecelluiet.wordpress.com/author/edcuiet/" target="_blank"><span class="lnr lnr-highlight pr-sm"></span>Blog</a>
+            <a data-easing="linear" class="nav-item nav-link" href="#id-community"><span class="fa fa-address-card-o pr-sm"></span>Community</a>
   					<a data-easing="linear" class="nav-item nav-link" href="#id-team"><span class="lnr lnr-users pr-sm"></span>Team</a>
-  					<a data-easing="linear" class="nav-item nav-link" href="#id-community"><span class="fa fa-address-card-o pr-sm"></span>Community</a>
-  					<a data-easing="linear" class="nav-item nav-link" href="#"><span class="lnr lnr-link pr-sm"></span>Udyami</a>
+  					<a data-easing="linear" class="nav-item nav-link" href="./udyami/"><span class="lnr lnr-link pr-sm"></span>Udyami</a>
+            <a data-easing="linear" class="nav-item nav-link" href="https://ecelluiet.wordpress.com/author/edcuiet/" target="_blank"><span class="lnr lnr-highlight pr-sm"></span>Blog</a>
   					<a data-easing="linear" class="nav-item nav-link" href="#id-contact"><span class="lnr lnr-phone-handset pr-sm"></span>Contact</a>
   				</div>
   			</div>
