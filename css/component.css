@@ -12,6 +12,7 @@
 /* Common styles of menus */
 
 .dl-menuwrapper {
+	z-index: 10000;
 	width: 100%;
 	max-width: 300px;
 	float: left;

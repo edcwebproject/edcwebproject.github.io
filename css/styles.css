@@ -217,7 +217,7 @@ figure figcaption a:hover{
 }
 
 .team{
-  height: 500px !important;
+  height: 300px !important;
 }
 
 .member-list-out li{
@@ -384,7 +384,7 @@ figure figcaption a:hover{
 
 @media all and (max-width: 992px){
   .team{
-    height: 680px !important;
+    height: 500px !important;
   }
 }
 
@@ -430,8 +430,5 @@ figure figcaption a:hover{
   }
   .member-list{
     font-size: 12px;
-  }
-  .team{
-    height: 550px !important;
   }
 }
