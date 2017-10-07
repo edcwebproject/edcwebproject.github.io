@@ -80,9 +80,14 @@ body{
   color: rgba(255,255,255,1);
 }
 
+.__img_nav{
+  width: 60px;
+  height: auto;
+  margin-right:20px;
+}
 
 .hero{
-  background: url(../assets/hero-image.jpg);
+  background: url(../assets/hero_image.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -377,6 +382,24 @@ figure figcaption a:hover{
   padding-left: 20px;
 }
 
+@media all and (max-width: 992px){
+  .team{
+    height: 680px !important;
+  }
+}
+
+@media all and (max-width: 720px){
+  .hero-brand{
+    font-size: 2.8em;
+  }
+  .hero-description{
+    font-size: 1.4em;
+  }
+  h2.hero-description{
+    font-size: 1.6em;
+  }
+}
+
 @media all and (max-width: 576px){
   .hero-brand{
     font-size: 2em;
@@ -407,5 +430,8 @@ figure figcaption a:hover{
   }
   .member-list{
     font-size: 12px;
+  }
+  .team{
+    height: 550px !important;
   }
 }
