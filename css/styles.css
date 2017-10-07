@@ -84,6 +84,7 @@ body{
   width: 60px;
   height: auto;
   margin-right:20px;
+  border-radius: 100%;
 }
 
 .hero{
