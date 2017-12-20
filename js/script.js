@@ -1,23 +1,27 @@
 // $(window).load(function(){
 //   if($(window).scrollTop()>1){
-//     $(".navbar-theme").css("background-color", "#1E003D");
+//     $("nav").css("height","70px");
+//     $(".navbar-theme").css("background-color", "#141414");
 //     $(".navbar-theme").css("border-bottom", "1px solid #222");
 //     $(".navbar-dark .navbar-nav .nav-link").css("color", "#ffffff");
 //   }
 //   else{
+//     $("nav").css("height","100px");
 //     $(".navbar-theme").css("background-color", "transparent");
 //     $(".navbar-theme").css("border-bottom", "1px solid transparent");
 //     $(".navbar-dark .navbar-nav .nav-link").css("color", "#ffffff");
 //   }
 // });
-//
+
 // $(window).scroll(function() {
 //   if($(window).scrollTop()>100){
-//     $(".navbar-theme").css("background-color", "#1E003D");
+//     $("nav").css("height","70px");
+//     $(".navbar-theme").css("background-color", "#141414");
 //     $(".navbar-theme").css("border-bottom", "1px solid #222");
 //     $(".navbar-dark .navbar-nav .nav-link").css("color", "#ffffff");
 //   }
 //   else{
+//     $("nav").css("height","100px");
 //     $(".navbar-theme").css("background-color", "transparent");
 //     $(".navbar-theme").css("border-bottom", "1px solid transparent");
 //     $(".navbar-dark .navbar-nav .nav-link").css("color", "#ffffff");

@@ -1,40 +1,53 @@
+@font-face{
+  font-family: 'Fira Sans Light';
+  src: url('../fonts/FiraSans-Light.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans Hair';
+  src: url('../fonts/FiraSans-Hair.otf') format('opentype');
+  font-weight: lighter;
+}
+
 html {
   overflow: scroll;
   overflow-x: hidden;
 }
 
 ::selection{
-  background-color: #1E003D;
+  background-color: #b1d750;
   color: #ffffff;
 }
 
 ::-webkit-selection{
-  background-color: #1E003D;
+  background-color: #b1d750;
   color: #ffffff;
 }
 
 ::-ms-selection{
-  background-color: #1E003D;
+  background-color: #b1d750;
   color: #ffffff;
 }
 
 ::-o-selection{
-  background-color: #1E003D;
+  background-color: #b1d750;
   color: #ffffff;
 }
 
 ::-webkit-scrollbar {
-  width:10px;
+  width: 10px;
   background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(65, 74, 77);
+  background: #b1d750;
 }
 
 body{
   letter-spacing: 1px;
-  background-color: #f5f5f5;
+  background: url('../assets/background.svg');
+  background-attachment: fixed;
   color: #807e7e;
   font-family: 'Open Sans';
 }
@@ -46,12 +59,12 @@ body{
 
 .navbar-theme{
   transition: all 300ms ease-in-out;
-  background-color: #414A4D;
+  background-color: #151515;
   border-bottom: 1px solid transparent;
 }
 
 .set-font-ms{
-  font-family: 'Zilla Slab', serif !important;
+  font-family: 'Fira Sans Light', serif !important;
 }
 
 .navbar{
@@ -69,7 +82,7 @@ body{
 
 .navbar-dark .navbar-nav .nav-link{
   font-size: 12px;
-  color: rgba(255,255,255,0.6);
+  color: #fff;
   margin-right: 12px;
   transition: color .2s ease;
 }
@@ -77,22 +90,26 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:active,
 .navbar-dark .navbar-nav .nav-link:focus{
-  color: rgba(255,255,255,1);
+  color: #b1d750 !important; 
 }
 
 .__img_nav{
-  width: 60px;
+  width: 50px;
   height: auto;
   margin-right:20px;
   border-radius: 100%;
 }
 
 .hero{
-  background: url(../assets/hero_image.jpg);
+  background-image: linear-gradient(to top,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../assets/hero_image.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   height: 650px;
+}
+
+.wrap{
+  padding: 8rem 6rem !important; 
 }
 
 .large-container{
@@ -109,26 +126,59 @@ body{
   text-align: left;
 }
 
+.theme-invert{
+  background: #000;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.theme-invert:after{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  content: '';
+  transform: skewX(-45deg);
+  top: 0;
+  right: 0;
+  left: 50%;
+  background-color: #b1d750;
+}
+
 .hero-brand{
+  font-family: 'Fira Sans Hair' !important;
+  margin-top: 50px;
   color: #ffffff;
-  font-size: 72px;
+  font-size: 100px;
   letter-spacing: 2px;
 }
 
+.hero-brand span{
+  font-family: 'Fira Sans Light';
+}
+
 .hero-description{
+  font-family: 'Fira Sans Light';
   color: rgba(255,255,255,0.7);
 }
 
+
 .section-heading{
-  color: rgba(52, 152, 219, 1) !important;
+  color: #000 !important;
+  font-size: 60px;
   margin-bottom: 20px;
+}
+
+.theme-invert .section-heading{
+  color: #b1d750 !important;
 }
 
 .section-text{
   font-size: 18px;
-  line-height: 2em;
-  border-left: 10px solid rgba(52, 152, 219, 1);
-  padding: 20px;
+  line-height: 1.6em;
+  width: 70%;
 }
 
 .connect-column{
@@ -136,10 +186,32 @@ body{
 }
 
 .box{
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   height: 100%;
-  background-color: #f8f8f8;
-  border: 2px solid rgba(52, 152, 219, 0.25);
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #b1d750;
   text-align: center;
+  box-shadow: 0 0 5px #000;
+  transition: all .2s linear;
+}
+
+.box:hover{
+  box-shadow: 0 0 10px #000;
+  transform: scale(1.05);
+}
+
+.box:hover p{
+  opacity: 1;
+}
+
+.box:hover .head-cont{
+  display: none;
 }
 
 /* Override Borders */
@@ -148,9 +220,20 @@ body{
 }
 
 .box p{
-  padding: 0 10px;
+  opacity: 0;
+  height: 100%;
+  color:#fff;
+  background: #000;
+  padding: 2rem 10px;
+  margin: 0 auto;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 1.3rem;
+  transition: all .5s ease;
+}
+
+.box .head-cont{
+  transition: all .5s ease;
+  position: absolute;
 }
 
 .box h5{
@@ -161,9 +244,6 @@ body{
   max-width: 100%;
 }
 
-.container p{
-  color: rgba(0, 0, 0, 0.6);
-}
 
 /*Figures and Reset Hover Effects*/
 
@@ -217,10 +297,6 @@ figure figcaption a:hover{
   color: #007BB6;
 }
 
-.team{
-  height: 300px !important;
-}
-
 .member-list-out li{
   margin-right: 20px;
   height: 50px;
@@ -260,7 +336,7 @@ figure figcaption a:hover{
 
 .footer{
   height: 500px;
-  background-color: rgba(65, 74, 77,1);
+  background-color: transparent;
 }
 
 .footer .container{
@@ -281,14 +357,14 @@ figure figcaption a:hover{
 
 .information,
 .information a.mail{
-  color: rgba(255,255,255,0.6) !important;
+  color: #000;
   font-size: 14px;
 }
 
 .information a.mail:active,
 .information a.mail:hover,
 .information a.mail:focus{
-  color: rgba(255,255,255,0.6) !important;
+  color: #b1d750;
 }
 
 .information i{
@@ -311,26 +387,25 @@ figure figcaption a:hover{
   padding: 10px;
   vertical-align: middle;
   text-align: center;
-  color: #ffffff;
+  color: #000;
   transition: all 200ms linear;
 }
 
 .spanner:hover{
-  color: rgb(65, 74, 77);
-  background-color: #fff;
-  transform: scale(1.1);
+  color: #000;
+  background-color: #b1d750;
+  transform: rotateZ(360deg);
 }
 
 .meta{
   margin-top: 18px;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 2em;
   letter-spacing: 0;
-  color: rgba(255,255,255,0.25);
 }
 
 .meta a{
-  color: inherit;
+  color: #000;
 }
 
 .social{
@@ -338,7 +413,7 @@ figure figcaption a:hover{
 }
 
 .developer{
-  color: #ffffff !important;
+  color: #b1d750 !important;
 }
 
 .developer:hover{
@@ -352,31 +427,31 @@ figure figcaption a:hover{
 
 .com-btn,
 .__override{
-  border: 2px solid rgba(52, 152, 219, 1);
   margin-top: 10px;
   padding: 20px 40px;
   transition: all 200ms ease;
 }
 
 .__override{
-  color: #ffffff !important;
+  color: #000 !important;
 }
 
 .com-btn:hover{
   color: #ffffff;
-  background-color: rgba(52, 152, 219, 1);
+  background-color: #000;
   text-decoration: none;
 }
 
 .__override:hover{
-  color: rgba(65, 74, 77,1) !important;
-  background-color: #fff;
+  color: #b1d750 !important;
+  background-color: #000;
   text-decoration: none;
 }
 
 .contact-main{
   margin-top: 20px;
-  border: 1px solid #ffffff !important;
+  border: 1px solid #000 !important;
+  border-radius: 5px;
 }
 
 .contact-main i{
@@ -384,9 +459,7 @@ figure figcaption a:hover{
 }
 
 @media all and (max-width: 992px){
-  .team{
-    height: 500px !important;
-  }
+
 }
 
 @media all and (max-width: 720px){
@@ -402,21 +475,35 @@ figure figcaption a:hover{
 }
 
 @media all and (max-width: 576px){
+  .large-container{
+    width: 95%;
+  }
+  .hero{
+    height: 550px;
+  }
   .hero-brand{
     font-size: 2em;
-    line-height: 1.6em;
+    margin-bottom: 20px;
   }
   .hero-description{
-    font-size: 1.2em;
-    line-height: 1.6em;
+    font-size: 1rem;
+    line-height: 1.3em;
+  }
+  .wrap{
+    padding: 5rem 1rem !important;
+  }
+  .section-heading{
+    font-size: 32px;
   }
   .section-text{
+    width: 100%;
     font-size: 12px;
     text-align: left;
   }
   .box p{
-    padding: 0 14px;
-    text-align: justify;
+    width: 100%;
+    padding: 20px 14px;
+    text-align: center;
   }
   .information,
   .information a,
