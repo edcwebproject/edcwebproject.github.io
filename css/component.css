@@ -15,6 +15,7 @@
 	z-index: 10000;
 	width: 100%;
 	max-width: 300px;
+	height: 200px;
 	float: left;
 	position: relative;
 	-webkit-perspective: 1000px;
@@ -28,7 +29,7 @@
 }
 
 .dl-menuwrapper button {
-	background: rgba(52, 152, 219,0.8) !important;
+	background: #b1d750 !important;
 	border: none;
 	width: 48px;
 	height: 45px;
@@ -42,7 +43,7 @@
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
-	background: rgba(52, 152, 219,1);
+	background: #b1d750;
 }
 
 .dl-menuwrapper button:after {
@@ -50,16 +51,17 @@
 	position: absolute;
 	width: 68%;
 	height: 5px;
-	background: #fff;
+	background: #141414;
 	top: 10px;
 	left: 16%;
 	box-shadow:
-		0 10px 0 #fff,
-		0 20px 0 #fff;
+		0 10px 0 #141414,
+		0 20px 0 #141414;
 }
 
 .dl-menuwrapper ul {
 	padding: 0;
+	border: 1px solid #000;
 	list-style: none;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -72,17 +74,17 @@
 .dl-menuwrapper li a {
 	display: block;
 	position: relative;
-	padding: 15px 20px;
+	padding: 10px;
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 16px;
 	font-weight: 300;
-	color: #fff;
+	color: #000;
 	outline: none;
 }
 
 .no-touch .dl-menuwrapper li a:hover {
 	text-decoration: none;
-	background: rgba(255,248,213,0.1);
+	background: #9bc72d;
 }
 
 .dl-menuwrapper li.dl-back > a {
@@ -94,17 +96,17 @@
 .dl-menuwrapper li > a:not(:only-child):after {
 	position: absolute;
 	top: 0;
-	line-height: 50px;
+	line-height: 35px;
 	font-family: 'icomoon';
 	speak: none;
 	-webkit-font-smoothing: antialiased;
 	content: "\e000";
-	color: #fff;
+	color: #000;
 }
 
 .dl-menuwrapper li.dl-back:after {
 	left: 5px;
-	color: rgba(255,255,255,1);
+	color: #000;
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
 }

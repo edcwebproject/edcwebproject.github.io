@@ -376,6 +376,7 @@ figure figcaption a:hover{
   font-size: 14px;
   text-align: justify;
 }
+
 .col-wd-5{
   min-width: 20%;
   max-width: 20%;
@@ -394,7 +395,7 @@ figure figcaption a:hover{
 .spanner:hover{
   color: #000;
   background-color: #b1d750;
-  transform: rotateZ(360deg);
+  border: 1px solid #000;
 }
 
 .meta{
@@ -490,7 +491,7 @@ figure figcaption a:hover{
     line-height: 1.3em;
   }
   .wrap{
-    padding: 5rem 1rem !important;
+    padding: 5.2rem 1rem !important;
   }
   .section-heading{
     font-size: 32px;
