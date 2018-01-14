@@ -836,15 +836,16 @@ ul#nav li a {
 	text-align: left;
 	color: #FFFFFF;
 	position: relative;
-	-moz-transition: color 0.2s ease-in-out;
-	-o-transition: color 0.2s ease-in-out;
-	-webkit-transition: color 0.2s ease-in-out;
-	-ms-transition: color 0.2s ease-in-out;
-	transition: color 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 ul#nav li a:hover {
-	color: #b1d750;
+    background-color: #fff;
+	color: #111;
 }
 
 ul#nav li a:active {
