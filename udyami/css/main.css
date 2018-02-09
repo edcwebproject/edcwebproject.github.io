@@ -683,7 +683,7 @@ header.opaque {
 /* header logo */
 header .logo_pu{
 	background: none;
-	/*padding-top:5px;*/
+	padding-top:5px;
 	float: left;
 	width: auto;
 	/*margin-left: 15px;
@@ -694,17 +694,23 @@ header .logo_pu{
 	elements that have been given an explicit position */
 	position: relative;
 }
-header .logo_udyami{
+.logo_pu a img{
+	height: 50px;
+}
+.logo_edc{
 	background: none;
 	padding-top:5px;
 	float: left;
 	width: auto;
-  display: none;
 	z-index: 600;
 
 	/* add position relative since z-index only applies to
 	elements that have been given an explicit position */
 	position: relative;
+}
+.logo_edc a img{
+	height: 50px;
+	margin: 0 5px;
 }
 header .logo_uiet{
 	background: none;
@@ -2590,7 +2596,7 @@ footer .social-links li {
 }
 
 footer .social-links li a {
-	color: rgba(255, 255, 255, 0.1);
+	color: #b1d750;
 }
 
 footer .social-links li a:hover {
