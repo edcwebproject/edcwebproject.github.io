@@ -100,13 +100,22 @@ body{
   border-radius: 100%;
 }
 
-.hero{
+.hero,
+.hero-md{
   background-image: linear-gradient(to top,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../assets/hero_image.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.hero{
   height: 650px;
 }
+
+.hero-md{
+  height: 400px;
+}
+
 
 .wrap{
   padding: 8rem 6rem !important; 
@@ -124,6 +133,11 @@ body{
   display: table-cell;
   vertical-align: middle;
   text-align: left;
+}
+
+.large-display h5 {
+  color: white;
+  font-weight: 100;
 }
 
 .theme-invert{
@@ -147,15 +161,24 @@ body{
   background-color: #b1d750;
 }
 
-.hero-brand{
+.hero-brand,
+.hero-brand-l{
   font-family: 'Fira Sans Hair' !important;
   margin-top: 50px;
   color: #ffffff;
-  font-size: 100px;
   letter-spacing: 2px;
 }
 
-.hero-brand span{
+.hero-brand{
+  font-size: 100px;
+}
+
+.hero-brand-l{
+  font-size: 64px;
+}
+
+.hero-brand span,
+.hero-brand-l span{
   font-family: 'Fira Sans Light';
 }
 
@@ -339,8 +362,13 @@ figure figcaption a:hover{
   background-color: transparent;
 }
 
-.footer .container{
+.footer-md {
   height: 100%;
+  background-color: transparent;
+  margin: 20px 0;
+}
+
+.footer .container{
   margin: 0 auto;
 }
 
@@ -390,6 +418,7 @@ figure figcaption a:hover{
   text-align: center;
   color: #000;
   transition: all 200ms linear;
+  border: 1px solid transparent;
 }
 
 .spanner:hover{
