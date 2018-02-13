@@ -489,7 +489,10 @@ figure figcaption a:hover{
 }
 
 @media all and (max-width: 992px){
-
+  .hero-brand-l {
+    font-weight: bold;
+    font-size: 26px; 
+  }
 }
 
 @media all and (max-width: 720px){
@@ -549,4 +552,51 @@ figure figcaption a:hover{
   .member-list{
     font-size: 12px;
   }
+}
+
+
+.container-xl {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.dark-text {
+  background-color: #b1d750;
+  color: #000;
+}
+
+.team {
+  height: 100%;
+  width: 100%;
+}
+
+.team a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.team a img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 0px #000;
+  transition: all .2s linear;
+}
+
+.team a img:hover{
+  filter: grayscale(0);
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+.member-name {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.team-position {
+  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 20px;
 }
