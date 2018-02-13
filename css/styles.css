@@ -164,6 +164,7 @@ body{
 .hero-brand,
 .hero-brand-l{
   font-family: 'Fira Sans Hair' !important;
+  font-weight: bold;
   margin-top: 50px;
   color: #ffffff;
   letter-spacing: 2px;
@@ -175,6 +176,7 @@ body{
 
 .hero-brand-l{
   font-size: 64px;
+  letter-spacing: 0;
 }
 
 .hero-brand span,

@@ -703,7 +703,6 @@ header .logo_pu{
 	float: left;
 	width: auto;
 	z-index: 600;
-
 	/* add position relative since z-index only applies to
 	elements that have been given an explicit position */
 	position: relative;
@@ -711,6 +710,7 @@ header .logo_pu{
 .logo_edc a img{
 	height: 50px;
 	margin: 0 5px;
+	border-radius: 50%;
 }
 header .logo_uiet{
 	background: none;
