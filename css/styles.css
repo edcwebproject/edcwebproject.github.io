@@ -204,6 +204,7 @@ body{
   font-size: 18px;
   line-height: 1.6em;
   width: 70%;
+  margin: 40px 0;
 }
 
 .connect-column{
@@ -216,7 +217,6 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
   height: 100%;
   background-color: #fff;
   border: 1px solid #000;
@@ -366,8 +366,8 @@ figure figcaption a:hover{
 
 .footer-md {
   height: 100%;
-  background-color: transparent;
-  margin: 20px 0;
+  background-color: #b1d750;
+  padding: 40px 0;
 }
 
 .footer .container{
@@ -445,7 +445,8 @@ figure figcaption a:hover{
 }
 
 .developer{
-  color: #b1d750 !important;
+  font-weight: bold;
+  color: #000 !important;
 }
 
 .developer:hover{
