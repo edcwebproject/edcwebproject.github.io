@@ -183,7 +183,8 @@ em {
 strong,
 b {
 	font: 16px/30px "Source Sans Pro", serif;
-	font-weight: normal;
+	font-weight: bolder;
+	font-weight: 900;
 }
 
 small {
@@ -1042,7 +1043,6 @@ ul#nav li.current a:after {
 	width: 100%;
 	text-align: left;
 	position: relative;
-	border-bottom: 1px solid #15191d;
 	overflow: hidden;
 }
 
@@ -1380,7 +1380,7 @@ ul#nav li.current a:after {
 #portfolio {
 	background: #fff;
 	padding-top: 120px;
-	border-bottom: 1px solid #15191d;
+	padding-bottom: 40px;
 }
 
 #portfolio .row.items {
@@ -1574,10 +1574,11 @@ ul#nav li.current a:after {
 /* Popup Modal
 /* ------------------------------------------------------------------ */
 .popup-modal {
-	max-width: 400px;
-	background: #FFFFFF;
+	max-width: 90%;
+	width: 60%;
 	position: relative;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 .popup-modal .media {
@@ -1593,14 +1594,22 @@ ul#nav li.current a:after {
 	padding: 6px 36px 30px;
 }
 
+.popup-modal .description-box a {
+	color: #000;
+	background-color: #fff
+}
+
 .popup-modal .description-box h4 {
-	font: 15px/24px "Source Sans Pro", sans-serif;
-	color: #000000;
+	font: 18px/24px "Source Sans Pro", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bolder;
 }
 
 .popup-modal .description-box p {
 	font: 14px/24px "Source Sans Pro", serif;
-	color: #A1A1A1;
+	color: #fff;
+	letter-spacing: 1px;
 	margin-bottom: 12px;
 }
 
@@ -1616,6 +1625,7 @@ ul#nav li.current a:after {
 
 /* link box */
 .popup-modal .link-box {
+	margin-top: 50px;
 	width: 100%;
 	overflow: hidden;
 	background: #000000;
@@ -1624,13 +1634,14 @@ ul#nav li.current a:after {
 .popup-modal .link-box a {
 	font: 12px/60px "Source Sans Pro", sans-serif;
 	color: #FFFFFF;
+	background-color: #000;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	cursor: pointer;
 	display: block;
 	text-align: center;
 	float: left;
-	width: 50%;
+	width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1638,21 +1649,16 @@ ul#nav li.current a:after {
 	transition: all 0.3s ease-in-out;
 }
 
-.popup-modal .link-box a:first-child {
-	border-right: 1px solid rgba(200, 200, 200, 0.1);
-}
-
 .popup-modal .link-box a:hover {
 	background: #fdc501;
 	color: #000000;
-	border: none;
 }
 
 /* media queries - popup-modal */
 
 @media only screen and (max-width:600px) {
 	.popup-modal {
-		width: auto;
+		width: 90%;
 		margin: 0 20px;
 	}
 
@@ -1819,14 +1825,12 @@ ul#nav li.current a:after {
 
 }
 
-
 /*
 /* 10. =about
 /* =================================================================== */
 
 #about {
 	background: #fff;
-	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
 }
@@ -2693,4 +2697,48 @@ footer .social-links li:first-child {
 	margin-left: 6px;
 	position: relative;
 	right: -5px;
+}
+
+
+/*
+===========================================
+	UTILITIES
+===========================================
+*/
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.harry-potter {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../images/modal/hp.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.creatour {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(../images/modal/creatour.png);
+	background-size: cover;
+	background-position: center;	
+}
+
+.byoc {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.5)), url(../images/modal/byoc.png);
+	background-size: cover;
+	background-position: center;	
+}
+
+.aae {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.5)), url(../images/modal/aae.png);
+	background-size: cover;
+	background-position: center;	
+}
+
+.sote {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/modal/stoe.png);
+	background-size: cover;
+	background-position: center;	
 }
