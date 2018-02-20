@@ -478,7 +478,6 @@ select {
 	margin: 0 0 12px 0;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
 	color: #a3a4a6;
 	font-family: "raleway-bold", sans-serif;
 	font-size: 15px;
@@ -1857,10 +1856,6 @@ ul#nav li.current a:after {
 	border-radius: 5px;
 }
 
-.process .bgrid:hover {
-	background-color: 
-}
-
 @media only screen and (max-width:600px) {
 	.process .bgrid:hover {
 		background: inherit;
@@ -1923,7 +1918,7 @@ ul#nav li.current a:after {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	color: #000
+	color: #000;
 	margin: 0;
 	padding: 0;
 }
