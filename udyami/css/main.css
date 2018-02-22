@@ -2247,6 +2247,12 @@ ul#nav li.current a:after {
 
 }
 
+#sponsors {
+	position: relative;
+	display: block;
+	padding: 100px 0;
+}
+
 /**
 /* 12. =contact
 /* =================================================================== */
