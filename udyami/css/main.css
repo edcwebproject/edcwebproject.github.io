@@ -2754,3 +2754,22 @@ footer .social-links li:first-child {
 	align-items: center;
 	justify-content: center;
 }
+
+.sponsor-indivisual {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 40%;
+}
+
+@media (max-width: 720px)
+{
+	.sponsor-indivisual {
+		width: 60%;
+	}
+}
+@media (max-width: 480px)
+{
+	.sponsor-indivisual {
+		width: 75%;
+	}
+}
