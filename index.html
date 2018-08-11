@@ -336,6 +336,9 @@
 			smoothScrollingDuration: 200,
 			mobileDeceleration: 0.001
 		});
+		if (s.isMobile()) {
+			s.destroy();
+		}
 	</script
   </body>
 
