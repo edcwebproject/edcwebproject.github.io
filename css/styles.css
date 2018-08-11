@@ -164,7 +164,7 @@ body{
   transform: skewX(-45deg);
   top: 0;
   right: 0;
-  left: 50%;
+  left: 80%;
   background-color: #19B5FE;
 }
 
@@ -207,6 +207,10 @@ body{
   background-repeat: no-repeat; 
 }
 
+.connect-section {
+  margin: 25px 0;
+}
+
 .section-heading{
   color: #7a7a7a !important;
   font-size: 60px;
@@ -223,6 +227,16 @@ body{
   line-height: 1.6em;
   width: 70%;
   margin: 40px 0;
+}
+
+.section-text a {
+  color: #19B5FE;
+  transition: all .5s ease;
+}
+
+.section-text a:hover {
+  color: #19B5FE;
+  text-decoration: underline;
 }
 
 .theme-invert .section-text {
