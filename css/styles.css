@@ -1,13 +1,12 @@
-@font-face{
-  font-family: 'Fira Sans Light';
-  src: url('../fonts/FiraSans-Light.otf') format('opentype');
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/helvetica/helvetica-neue-lt-std-55-roman.ttf');
   font-weight: normal;
 }
 
-@font-face{
-  font-family: 'Fira Sans Hair';
-  src: url('../fonts/FiraSans-Hair.otf') format('opentype');
-  font-weight: lighter;
+@font-face {
+  font-family: '';
+  src: url('../fonts/helvetica/helveticaneueltstdbd.ttf')
 }
 
 html {
@@ -16,22 +15,22 @@ html {
 }
 
 ::selection{
-  background-color: #b1d750;
+  background-color: #19B5FE;
   color: #ffffff;
 }
 
 ::-webkit-selection{
-  background-color: #b1d750;
+  background-color: #19B5FE;
   color: #ffffff;
 }
 
 ::-ms-selection{
-  background-color: #b1d750;
+  background-color: #19B5FE;
   color: #ffffff;
 }
 
 ::-o-selection{
-  background-color: #b1d750;
+  background-color: #19B5FE;
   color: #ffffff;
 }
 
@@ -41,15 +40,17 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #b1d750;
+  background: #19B5FE;
 }
 
 body{
-  letter-spacing: 1px;
-  background: url('../assets/background.svg');
-  background-attachment: fixed;
-  color: #807e7e;
-  font-family: 'Open Sans';
+  background-color: #ededed;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
 }
 
 #clearspace-large{
@@ -60,11 +61,6 @@ body{
 .navbar-theme{
   transition: all 300ms ease-in-out;
   background-color: #151515;
-  border-bottom: 1px solid transparent;
-}
-
-.set-font-ms{
-  font-family: 'Fira Sans Light', serif !important;
 }
 
 .navbar{
@@ -90,7 +86,7 @@ body{
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:active,
 .navbar-dark .navbar-nav .nav-link:focus{
-  color: #b1d750 !important; 
+  color: #19B5FE !important; 
 }
 
 .__img_nav{
@@ -102,10 +98,20 @@ body{
 
 .hero,
 .hero-md{
-  background-image: linear-gradient(to top,rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../assets/hero_image.jpg);
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+}
+
+.hero-display {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../assets/wall.jpg);
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero{
@@ -122,7 +128,7 @@ body{
 }
 
 .large-container{
-  width: 80%;
+  width: 88%;
   height: 100%;
   display: table;
   margin: 0 auto;
@@ -146,6 +152,7 @@ body{
   position: relative;
   z-index: 1;
   overflow: hidden;
+  box-shadow: 0 0 6px #000;
 }
 
 .theme-invert:after{
@@ -158,20 +165,17 @@ body{
   top: 0;
   right: 0;
   left: 50%;
-  background-color: #b1d750;
+  background-color: #19B5FE;
 }
 
 .hero-brand,
 .hero-brand-l{
-  font-family: 'Fira Sans Hair' !important;
-  font-weight: bold;
-  margin-top: 50px;
   color: #ffffff;
-  letter-spacing: 2px;
+  letter-spacing: -0.08rem;
 }
 
 .hero-brand{
-  font-size: 100px;
+  font-size: 60px;
 }
 
 .hero-brand-l{
@@ -179,32 +183,50 @@ body{
   letter-spacing: 0;
 }
 
-.hero-brand span,
-.hero-brand-l span{
-  font-family: 'Fira Sans Light';
-}
-
 .hero-description{
-  font-family: 'Fira Sans Light';
   color: rgba(255,255,255,0.7);
 }
 
+/*
+    SECTIONS
+*/
+
+.about-section {
+  background: url('../assets/wall1.png');
+  background-size: cover;
+  background-position: -100% center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+}
+
+.community-section {
+  background: url('../assets/wall2.png');
+  background-size: cover;
+  background-position: -100% center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+}
 
 .section-heading{
-  color: #000 !important;
+  color: #7a7a7a !important;
   font-size: 60px;
   margin-bottom: 20px;
 }
 
 .theme-invert .section-heading{
-  color: #b1d750 !important;
+  color: #19B5FE !important;
 }
 
 .section-text{
+  color: #151515;
   font-size: 18px;
   line-height: 1.6em;
   width: 70%;
   margin: 40px 0;
+}
+
+.theme-invert .section-text {
+  color: #fff;
 }
 
 .connect-column{
@@ -220,7 +242,7 @@ body{
   height: 100%;
   background-color: #fff;
   border: 1px solid #000;
-  color: #b1d750;
+  color: #19B5FE;
   text-align: center;
   box-shadow: 0 0 5px #000;
   transition: all .2s linear;
@@ -251,13 +273,13 @@ body{
   background: #000;
   padding: 2rem 10px;
   margin: 0 auto;
-  font-size: 12px;
-  line-height: 1.3rem;
-  transition: all .5s ease;
+  font-size: 14px;
+  line-height: 1.4rem;
+  transition: all .5s cubic-bezier(.98,.01,0,.97);
 }
 
 .box .head-cont{
-  transition: all .5s ease;
+  transition: all .5s cubic-bezier(.98,.01,0,.97);
   position: absolute;
 }
 
@@ -365,8 +387,8 @@ figure figcaption a:hover{
 }
 
 .footer-md {
-  height: 100%;
-  background-color: #b1d750;
+  overflow: hidden;
+  background-color: #19B5FE;
   padding: 40px 0;
 }
 
@@ -394,7 +416,7 @@ figure figcaption a:hover{
 .information a.mail:active,
 .information a.mail:hover,
 .information a.mail:focus{
-  color: #b1d750;
+  color: #19B5FE;
 }
 
 .information i{
@@ -425,7 +447,7 @@ figure figcaption a:hover{
 
 .spanner:hover{
   color: #000;
-  background-color: #b1d750;
+  background-color: #19B5FE;
   border: 1px solid #000;
 }
 
@@ -476,7 +498,7 @@ figure figcaption a:hover{
 }
 
 .__override:hover{
-  color: #b1d750 !important;
+  color: #19B5FE !important;
   background-color: #000;
   text-decoration: none;
 }
@@ -493,7 +515,6 @@ figure figcaption a:hover{
 
 @media all and (max-width: 992px){
   .hero-brand-l {
-    font-weight: bold;
     font-size: 26px; 
   }
 }
@@ -518,22 +539,25 @@ figure figcaption a:hover{
     height: 550px;
   }
   .hero-brand{
-    font-size: 2em;
+    width: 70%;
+    font-size: 48px;
     margin-bottom: 20px;
   }
   .hero-description{
-    font-size: 1rem;
-    line-height: 1.3em;
+    font-size: 20px;
+    line-height: 1.2em;
+    color: #fff;
   }
   .wrap{
-    padding: 5.2rem 1rem !important;
+    padding: 5.4rem 1rem !important;
   }
   .section-heading{
-    font-size: 32px;
+    font-size: 36px;
   }
   .section-text{
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: left;
   }
   .box p{
@@ -559,12 +583,12 @@ figure figcaption a:hover{
 
 
 .container-xl {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .dark-text {
-  background-color: #b1d750;
+  background-color: #19B5FE;
   color: #000;
 }
 
