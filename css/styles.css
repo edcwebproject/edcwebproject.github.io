@@ -49,6 +49,10 @@ body{
   font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .container-fluid {
   padding: 0 !important;
 }
@@ -247,6 +251,23 @@ body{
   margin-top: 5px;
 }
 
+.box-normal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #fff;
+  color: #19B5FE;
+  text-align: center;
+  box-shadow: 0 0 5px #000;
+  transition: all .2s linear;
+}
+
+.box-normal:hover{
+  box-shadow: 0 0 15px #fff;
+}
+
 .box{
   cursor: default;
   display: flex;
@@ -269,6 +290,10 @@ body{
 
 .box:hover p{
   opacity: 1;
+}
+
+.head-cont {
+  margin: 50px 0;
 }
 
 .box:hover .head-cont{
@@ -667,4 +692,8 @@ a.mail:hover:after {
   font-size: 12px;
   padding-top: 2px;
   padding-bottom: 20px;
+}
+
+h2, h3 {
+  color:#222 !important; 
 }
