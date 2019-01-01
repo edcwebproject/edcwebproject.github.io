@@ -697,3 +697,15 @@ a.mail:hover:after {
 h2, h3 {
   color:#222 !important; 
 }
+
+.clear-background {
+  background: none;
+}
+
+.yellow-overlay {
+  background: #f9a602;
+}
+
+.extra-spacing {
+  margin: 60px 0;
+}
