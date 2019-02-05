@@ -1025,8 +1025,8 @@ h6 {
 }
 
 #clients .clients-wrap {
-  border-top: 1px solid #d6eaff;
-  border-left: 1px solid #d6eaff;
+  //border-top: 1px solid #d6eaff;
+  //border-left: 1px solid #d6eaff;
   margin-bottom: 30px;
 }
 
@@ -1044,20 +1044,11 @@ h6 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #d6eaff;
-  border-bottom: 1px solid #d6eaff;
+  //border-right: 1px solid #d6eaff;
+  //border-bottom: 1px solid #d6eaff;
   overflow: hidden;
-  background: #fff;
+  //background: #fff;
   height: 160px;
-}
-
-#clients .client-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-#clients img {
-  transition: all 0.4s ease-in-out;
 }
 
 /* Contact Section
