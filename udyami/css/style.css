@@ -944,6 +944,11 @@ h6 {
   overflow: hidden;
   width: 65%;
   margin: 20px auto;
+  transition: 100ms all linear;
+}
+
+#team .member:hover {
+  box-shadow: 0 0 15px #222;
 }
 
 #team .member .member-info {
@@ -974,7 +979,6 @@ h6 {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
   opacity: 1;
   transition: 0.4s;
 }
@@ -1411,4 +1415,22 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+.speaker-details {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.speaker-details h4 {
+  font-size: 18px;
+}
+
+.speaker-details h6 {
+  font-size: 14px;
+}
+
+.speaker-name {
+  font-size: 16px;
 }
