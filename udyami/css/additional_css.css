@@ -1,0 +1,63 @@
+/*--additional css---*/
+.speaker-details {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.speaker-details h4 {
+  font-size: 18px;
+}
+
+.speaker-details h6 {
+  font-size: 14px;
+}
+
+.speaker-name {
+  font-size: 16px;
+}
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+.btn-warning:hover {
+	background-color:yellow;
+
+}
+.img-responsive:hover {
+	border-color:black;
+}
+.fa-4x:hover{
+	color:green;
+}
+.btn-success:hover {
+	background-color:blue;
+	color: white;
+	font-weight: bold;
+
+}
+.active-nav{
+	font-weight: bold;
+
+}
+.active-nav:hover{
+	background-color: #0099ff;
+	color: black;
+	font-weight: bolder;
+}
+.active:hover{
+	color: white;
+	font-style: solid;
+	font-weight: bold;
+}

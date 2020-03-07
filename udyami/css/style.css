@@ -173,9 +173,11 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/intro-bg2.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }
 
 #intro .intro-img {
@@ -189,13 +191,13 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
+  color: #000;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h3 {
-  color: #fff;
+  color: #000;
   font-size: 22px;
   font-weight: 500;
 }
@@ -231,8 +233,8 @@ h6 {
 
 #intro .intro-info .btn-get-started:hover {
   background: none;
-  border-color: #fff;
-  color: #fff;
+  border-color: #000;
+  color: #000;
 }
 
 #intro .intro-info .btn-services {
@@ -1360,8 +1362,10 @@ h6 {
   #intro .intro-img {
     width: 80%;
     float: none;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 25px 500px;
+    
   }
+	
 
   #intro .intro-info {
     width: 80%;
@@ -1417,20 +1421,3 @@ h6 {
   }
 }
 
-.speaker-details {
-  font-size: 14px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.speaker-details h4 {
-  font-size: 18px;
-}
-
-.speaker-details h6 {
-  font-size: 14px;
-}
-
-.speaker-name {
-  font-size: 16px;
-}
